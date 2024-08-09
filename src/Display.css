@@ -1,0 +1,61 @@
+.table-container {
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  td i {
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  td i.fa-trash {
+    color: red;
+  }
+  
+  td i.fa-edit {
+    color: blue;
+  }
+  
+  td form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  td form input[type='text'] {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  td form button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  td form button[type='submit'] {
+    background-color: green;
+    color: white;
+  }
+  
+  td form button[type='button'] {
+    background-color: grey;
+    color: white;
+  }
+  
